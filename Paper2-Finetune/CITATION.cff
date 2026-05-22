@@ -1,8 +1,24 @@
 cff-version: 1.2.0
-title: Thai Banana Cultivar Dataset
+title: Thai Banana and Non-Banana Fine-Tuning Dataset
 message: If you use this dataset, please cite it as below.
 authors:
-  - family-names: YourSurname
-    given-names: YourName
-date-released: 2026
+  - family-names: S. Nuankaew
+    given-names: Wongpanya
+
+  - family-names: Phemphoon
+    given-names: Pichayapa
+
+  - family-names: Prachumkhong
+    given-names: Khemjira
+
+  - family-names: Chanapai
+    given-names: Chanakan
+
+  - family-names: Nuankaew
+    given-names: Pratya
+
+  - family-names: Sararat
+    given-names: Thapanapong
+
+date-released: 2025
 license: CC-BY-4.0
