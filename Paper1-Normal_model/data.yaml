@@ -1,0 +1,17 @@
+path: .
+
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: Candyapple
+  1: Namwa
+  2: Namwadam
+  3: Homthong
+  4: Nak
+  5: Thepphanom
+  6: Kai
+  7: Lepchanggud
+  8: Ngachang
+  9: Huamao
