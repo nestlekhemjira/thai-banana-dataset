@@ -6,8 +6,11 @@ import os
 # Configuration
 MODEL_PATH = '../benchmark/yolov8s_train/weights/best.pt'
 DATA_CONFIG = '../data.yaml'
-RESULT_DIR = '../benchmark/evaluation'
 
+RESULT_DIR = '../benchmark/evaluation'
+EXPERIMENT_NAME = 'test_evaluation'
+
+# Create Output Directory
 os.makedirs(RESULT_DIR, exist_ok=True)
 
 # Load Model
@@ -18,10 +21,10 @@ metrics = model.val(
     split='test',
     data=DATA_CONFIG,
     project=RESULT_DIR,
-    name='test_evaluation'
+    name=EXPERIMENT_NAME
 )
 
-# Save Metrics
+# Save Evaluation Metrics
 metrics_data = {
     'Metric': ['mAP50-95', 'mAP50', 'Precision', 'Recall'],
     'Overall': [
@@ -33,6 +36,7 @@ metrics_data = {
 }
 
 metrics_df = pd.DataFrame(metrics_data)
+
 metrics_df.to_csv(
     os.path.join(RESULT_DIR, 'metrics.csv'),
     index=False
