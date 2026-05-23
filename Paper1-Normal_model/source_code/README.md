@@ -15,10 +15,16 @@ source_code/
 ├── dataset_check.py
 ├── requirements.txt
 └── README.md
-Requirements
+
+---
+
+# Requirements
 Install required packages before running the scripts:
 pip install -r requirements.txt
-Scripts Overview
+
+---
+
+# Scripts Overview
 train.py
 Train the YOLOv8 model using the provided dataset configuration.
 Features:
@@ -28,6 +34,9 @@ GPU/CPU automatic detection
 Benchmark output generation
 Run:
 python train.py
+
+---
+
 evaluate.py
 Evaluate the trained model on the test dataset.
 Features:
@@ -38,6 +47,9 @@ Run:
 python evaluate.py
 Output:
 metrics.csv
+
+---
+
 predict.py
 Run inference on test images and export prediction logs.
 Features:
@@ -50,6 +62,9 @@ python predict.py
 Output:
 prediction_logs.xlsx
 predicted images
+
+---
+
 export_model.py
 Export trained models into multiple formats.
 Supported formats:
@@ -58,6 +73,9 @@ PyTorch State Dictionary (.pth)
 ONNX (.onnx)
 Run:
 python export_model.py
+
+---
+
 dataset_check.py
 Validate dataset integrity by checking:
 missing labels
@@ -65,6 +83,9 @@ missing images
 filename mismatches
 Run:
 python dataset_check.py
+
+---
+
 Dataset Configuration
 The scripts use the dataset configuration file:
 data.yaml
@@ -86,11 +107,17 @@ names:
   - Lepchanggud
   - Ngachang
   - Huamao
+
+---
+
 Framework
 This project uses:
 Ultralytics YOLOv8
 PyTorch
 Python 3
+
+---
+
 Notes
 All scripts use relative paths for portability.
 GPU acceleration is automatically enabled when CUDA is available.
