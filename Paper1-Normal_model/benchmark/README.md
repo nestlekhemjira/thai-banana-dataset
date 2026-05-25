@@ -8,7 +8,7 @@ This directory contains benchmark results for multiple YOLO-based object detecti
 
 The following models were evaluated:
 
-- YOLOv8
+- YOLOv8n
 - YOLOv8s
 - YOLOv9t (100 Epochs)
 - YOLOv9t (88 Epochs)
