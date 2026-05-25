@@ -21,8 +21,8 @@ The following models were evaluated:
 benchmark/
 ├── yolov8/
 ├── yolov8s/
-├── yolov9t_100epochs/
-├── yolov9t_88epochs/
+├── yolov9t(100epoch)/
+├── yolov9t(88epoch)/
 │
 ├── benchmark_summary.csv
 ├── benchmark_comparison.xlsx
