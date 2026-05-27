@@ -37,16 +37,16 @@ benchmark/
 ```
 ---
 # Evaluation Metrics
-mAP50
-mAP50-95
-Precision
-Recall
-Precision-Recall Curve
-F1-Confidence Curve
-Confusion Matrix
+- mAP50
+- mAP50-95
+- Precision
+- Recall
+- Precision-Recall Curve
+- F1-Confidence Curve
+- Confusion Matrix
 
 ---
 # Framework & Environment
-Ultralytics YOLO (YOLOv9, YOLOv10)
-PyTorch
-Python 3.x
+- Ultralytics YOLO (YOLOv9, YOLOv10)
+- PyTorch
+- Python 3.x
