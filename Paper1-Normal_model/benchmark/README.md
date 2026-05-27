@@ -47,8 +47,7 @@ benchmark/
 │   ├── BoxF1_curve.png
 │   └── metric.csv
 │
-├── benchmark_summary.csv
-├── benchmark_comparison.xlsx
+├── summary.csv
 └── README.md
 ```
 
