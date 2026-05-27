@@ -1,0 +1,18 @@
+Label Format: YOLO Detection Format
+
+Each label file corresponds to one image file.
+
+Annotation format per line:
+<class_id> <x_center> <y_center> <width> <height>
+
+Where:
+- class_id: integer class index
+- x_center: normalized x-coordinate of bounding box center
+- y_center: normalized y-coordinate of bounding box center
+- width: normalized bounding box width
+- height: normalized bounding box height
+
+All coordinate values are normalized between 0 and 1 relative to image dimensions.
+
+Example:
+0 0.512 0.476 0.321 0.654
