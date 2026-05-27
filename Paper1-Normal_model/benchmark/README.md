@@ -1,10 +1,10 @@
-# 📊 Benchmark Results
+# Benchmark Results
 
 This directory contains the experimental benchmark results for evaluating YOLO-based object detection models trained on the **Thai Banana Cultivar Detection Dataset** for cultivar conservation and commercial management.
 
 ---
 
-# 🤖 Evaluated Models
+# Evaluated Models
 
 The following models were trained and evaluated based on the research paper parameters:
 
