@@ -1,19 +1,19 @@
 # Benchmark Results
 
-This repository contains benchmark results for YOLO-based object detection models evaluated on monitor-captured banana images under LED/LCD domain shift conditions.
+This directory contains the experimental benchmark results evaluating YOLO-based object detection models on monitor-captured banana images, specifically focusing on the **domain shift between LED and LCD screen displays**.
 
 ---
 
 # Evaluated Models
 
-- **YOLOv9s** — 99 epochs
-- **YOLOv10s** — 90 epochs
+The following models were trained and evaluated under identical dataset configurations to ensure a fair comparison:
 
-All models were trained using the Ultralytics YOLO framework under identical dataset configurations for fair comparison.
+- **YOLOv9s** — 100 Epochs (Optimized for robust performance across domains)
+- **YOLOv10s** — 90 Epochs (Real-time end-to-end object detection)
 
 ---
 
-# Benchmark Structure
+# Directory Structure
 
 ```text
 benchmark/
@@ -22,31 +22,31 @@ benchmark/
 │   ├── confusion_matrix.png
 │   ├── BoxPR_curve.png
 │   ├── BoxF1_curve.png
-│   └── metrics.csv
+│   └── metric.csv
 │
 ├── yolov10s/
 │   ├── results.png
 │   ├── confusion_matrix.png
 │   ├── BoxPR_curve.png
 │   ├── BoxF1_curve.png
-│   └── metrics.csv
+│   └── metric.csv
 │
 ├── benchmark_summary.csv
 ├── benchmark_comparison.xlsx
 └── README.md
 ```
 ---
+
 # Evaluation Metrics
-- mAP50
-- mAP50-95
-- Precision
-- Recall
-- Precision-Recall Curve
-- F1-Confidence Curve
-- Confusion Matrix
+- Each model directory contains artifacts representing the following metrics:
+- mAP50 & mAP50-95 (Mean Average Precision)
+- Precision & Recall
+- Precision-Recall Curve (BoxPR_curve.png)
+- F1-Confidence Curve (BoxF1_curve.png)
+- Confusion Matrix (confusion_matrix.png)
 
 ---
 # Framework & Environment
-- Ultralytics YOLO (YOLOv9, YOLOv10)
-- PyTorch
-- Python 3.x
+- Core Framework: Ultralytics YOLO (YOLOv9 & YOLOv10)
+- Deep Learning Library: PyTorch
+- Language: Python 3.x
