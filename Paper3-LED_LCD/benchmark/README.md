@@ -4,7 +4,7 @@ This repository provides benchmark results for evaluating YOLO-based object dete
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 This work investigates the robustness of object detection models under **screen-based domain shift**, where images are captured from digital displays (LED and LCD monitors).
 
@@ -14,7 +14,7 @@ The main objective is to evaluate and compare YOLO-based models under this chall
 
 ---
 
-# 🤖 Models Evaluated
+# Models Evaluated
 
 The following models were trained and evaluated based on the research study:
 
@@ -25,7 +25,7 @@ All models were implemented using the **Ultralytics YOLO framework** and trained
 
 ---
 
-# 📊 Benchmark Structure
+# Benchmark Structure
 
 ```text
 benchmark/
@@ -49,7 +49,7 @@ benchmark/
 
 
 ---
-# 📈 Evaluation Artifacts
+# Evaluation Artifacts
 
 Each model directory includes the following outputs:
 
