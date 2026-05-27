@@ -1,0 +1,27 @@
+DATA ACQUISITION AND PROCESSING PIPELINE
+
+This dataset contains two domain conditions:
+
+1. Original Camera Domain
+- Images captured directly using standard cameras under controlled conditions
+- Represents high-quality visual conditions captured under controlled settings
+
+2. Screen Recapture Domain (LED/LCD)
+- Images captured by photographing displayed content on digital screens using smartphones
+- Two display types involved:
+  - LED display condition
+  - LCD display condition
+- These conditions introduce different display characteristics and visual artifacts
+- Designed to study domain shift effects and potential moiré patterns caused by differences in display technologies between LED and LCD screens
+
+3. Data Processing
+- Preprocessing steps applied across both domains including noise reduction and resizing
+- Standard resizing for model training to a 1:1 aspect ratio (640x640 resolution)
+- Pixel value normalization applied consistently across all images
+- Annotation verified for format consistency and bounding box validity
+- Management of negative samples (images with empty bounding boxes) to improve background-to-object separation and model robustness in non-object regions
+
+4. Dataset Split Strategy
+- Dataset split into two parts based on a standard ratio: 90% for model training/validation and 10% for model testing (held-out evaluation set)
+- Split performed at image level, ensuring no overlap between training and test sets
+- Split applied consistently across both domains to ensure balanced representation
