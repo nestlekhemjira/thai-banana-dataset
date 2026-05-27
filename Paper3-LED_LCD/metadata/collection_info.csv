@@ -4,7 +4,7 @@ dataset_version,v1.0
 task_type,Object Detection (Primary) with Class Labeling
 total_images,10000
 total_classes,10
-image_source,Original camera domain + screen recapture (LED/LCD display re-photography)
+image_source,Original camera domain + screen recapture (LED/LCD display)
 annotation_format,YOLO format
 annotation_type,Bounding Box
 device_used,Standard camera (source domain) and smartphones (recapture domain)
