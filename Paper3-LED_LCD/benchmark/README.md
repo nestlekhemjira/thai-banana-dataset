@@ -8,7 +8,7 @@ This directory contains the experimental benchmark results evaluating YOLO-based
 
 The following models were trained and evaluated under identical dataset configurations to ensure a fair comparison:
 
-- **YOLOv9s** — 100 Epochs (Optimized for robust performance across domains)
+- **YOLOv9s** — 99 Epochs (Optimized for robust performance across domains)
 - **YOLOv10s** — 90 Epochs (Real-time end-to-end object detection)
 
 ---
@@ -31,8 +31,7 @@ benchmark/
 │   ├── BoxF1_curve.png
 │   └── metric.csv
 │
-├── benchmark_summary.csv
-├── benchmark_comparison.xlsx
+├── summary.csv
 └── README.md
 ```
 ---
