@@ -1,28 +1,51 @@
-# Benchmark Results
+# 📊 Benchmark Results
 
-This directory contains benchmark results for multiple YOLO-based object detection models trained on the Thai Banana Cultivar Detection Dataset.
-
----
-
-# Evaluated Models
-
-The following models were evaluated:
-
-- YOLOv8n
-- YOLOv8s
-- YOLOv9t (100 Epochs)
-- YOLOv9t (88 Epochs)
+This directory contains the experimental benchmark results for evaluating YOLO-based object detection models trained on the **Thai Banana Cultivar Detection Dataset** for cultivar conservation and commercial management.
 
 ---
 
-# Directory Structure
+# 🤖 Evaluated Models
+
+The following models were trained and evaluated based on the research paper parameters:
+
+- **YOLOv8n**
+- **YOLOv8s**
+- **YOLOv9t** (100 Epochs)
+- **YOLOv9t** (88 Epochs) — *Identified as the most suitable model balancing accuracy, robustness, and stability while preventing overfitting.*
+
+---
+
+# 📁 Directory Structure
 
 ```text
 benchmark/
-├── yolov8/
+├── yolov8n/
+│   ├── results.png
+│   ├── confusion_matrix.png
+│   ├── BoxPR_curve.png
+│   ├── BoxF1_curve.png
+│   └── metric.csv
+│
 ├── yolov8s/
+│   ├── results.png
+│   ├── confusion_matrix.png
+│   ├── BoxPR_curve.png
+│   ├── BoxF1_curve.png
+│   └── metric.csv
+│
 ├── yolov9t(100epoch)/
+│   ├── results.png
+│   ├── confusion_matrix.png
+│   ├── BoxPR_curve.png
+│   ├── BoxF1_curve.png
+│   └── metric.csv
+│
 ├── yolov9t(88epoch)/
+│   ├── results.png
+│   ├── confusion_matrix.png
+│   ├── BoxPR_curve.png
+│   ├── BoxF1_curve.png
+│   └── metric.csv
 │
 ├── benchmark_summary.csv
 ├── benchmark_comparison.xlsx
@@ -30,43 +53,16 @@ benchmark/
 ```
 
 ---
-
-# Included Benchmark Files
-
-Each model directory may contain:
-
-- results.png
-- confusion_matrix.png
-- BoxPR_curve.png
-- BoxF1_curve.png
-- metrics.csv
-
----
-
 # Evaluation Metrics
-
-The benchmark evaluation includes:
-
-- mAP50-95
-- mAP50
-- Precision
-- Recall
-- Precision-Recall Curve
-- F1-Confidence Curve
-- Confusion Matrix
+Each model directory contains evaluation artifacts representing the following metrics:
+- mAP50 & mAP50-95 (Mean Average Precision)
+- Precision & Recall
+- Precision-Recall Curve (BoxPR_curve.png)
+- F1-Confidence Curve (BoxF1_curve.png)
+- Confusion Matrix (confusion_matrix.png)
 
 ---
-
-# Notes
-
-- All models were trained using the same dataset split configuration.
-- Training and evaluation were conducted using the Ultralytics YOLO framework.
-- Results may vary depending on hardware configuration and random initialization.
-
----
-
-# Framework
-
-- Ultralytics YOLO
-- PyTorch
-- Python 3
+# Framework & Environment
+- Core Framework: Ultralytics YOLO
+- Deep Learning Library: PyTorch
+- Language: Python 3.x
