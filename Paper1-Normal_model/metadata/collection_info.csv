@@ -6,7 +6,7 @@ total_classes,10
 image_source,Direct Camera Capture
 annotation_format,YOLO
 annotation_type,Bounding Box
-device_used,Smartphone Cameras
+device_used,Smartphones and Tablets
 lighting_conditions,Controlled and Natural Lighting
 country,Thailand
 dataset_split,Train Validation Test
