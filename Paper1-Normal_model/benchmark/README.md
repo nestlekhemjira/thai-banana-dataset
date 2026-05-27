@@ -15,7 +15,7 @@ The following models were trained and evaluated based on the research paper para
 
 ---
 
-# 📁 Directory Structure
+# Directory Structure
 
 ```text
 benchmark/
