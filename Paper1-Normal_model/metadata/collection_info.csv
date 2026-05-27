@@ -9,4 +9,4 @@ annotation_type,Bounding Box
 device_used,Smartphones and Tablets
 lighting_conditions,Controlled and Natural Lighting
 country,Thailand
-dataset_split,Train Validation Test
+dataset_split,70%Training, 15%Validation, 15%Test
