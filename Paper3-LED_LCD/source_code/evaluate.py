@@ -1,7 +1,3 @@
-# =========================================================
-# MODEL EVALUATION
-# =========================================================
-
 from ultralytics import YOLO
 
 MODEL_PATH = "./runs/experiment/weights/best.pt"
