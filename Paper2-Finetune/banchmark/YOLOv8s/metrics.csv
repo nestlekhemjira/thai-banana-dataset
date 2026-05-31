@@ -1,0 +1,5 @@
+Metric,Overall
+mAP50-95,0.98943
+mAP50,0.99500
+Precision,0.99179
+Recall,0.99632
