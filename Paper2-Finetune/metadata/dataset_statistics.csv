@@ -1,0 +1,12 @@
+﻿class_name,train,valid,test,total
+Candyapple,160,27,13,200
+Namwa,160,15,25,200
+Namwadam,160,22,18,200
+Homthong,160,22,18,200
+Nak,160,18,22,200
+Thepphanom,160,19,21,200
+Kai,160,20,20,200
+Lepchanggud,160,23,17,200
+Ngachang,160,19,21,200
+Huamao,160,24,16,200
+Total,1600,209,191,2000

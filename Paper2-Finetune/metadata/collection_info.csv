@@ -1,0 +1,12 @@
+﻿field,description
+dataset_name,Thai Banana Cultivar Detection Dataset
+task_type,Object Detection
+total_images,"8,500 images (2,000 banana images and 6,500 negative/background images)"
+total_classes,10
+image_source,"Monitor-captured banana photographs and curated public datasets (COCO, Fruit-360)"
+annotation_format,YOLO
+annotation_type,Bounding Box
+device_used,Digital Cameras
+lighting_conditions,"Various Lighting Conditions, Camera Angles, and Controlled/Natural Environments"
+country,Thailand
+dataset_split,"80% Train (6,799 images), 10% Validation (850 images), 10% Test (851 images)"
